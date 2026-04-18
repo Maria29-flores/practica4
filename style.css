@@ -1,3 +1,4 @@
+```css
 body {
     margin: 0;
     font-family: Tahoma, Arial, sans-serif;
@@ -77,7 +78,7 @@ body {
     overflow: hidden;
 }
 
-/* IMAGEN DE FONDO (CUBRE TODO) */
+/* IMAGEN DE FONDO CORRECTA */
 .main::before {
     content: "";
     position: absolute;
@@ -118,3 +119,4 @@ body {
     position: relative;
     z-index: 1;
 }
+```
